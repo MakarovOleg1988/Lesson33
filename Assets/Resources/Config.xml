@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Groups>
+	<Weapons>
+		<Weapon Name ="Knife" damage ="1">Knife</Weapon>
+		<Weapon Name ="Sword" damage ="2">Sword</Weapon>
+		<Weapon Name ="Bow" damage ="1.2">Bow</Weapon>
+	</Weapons>
+	<DistancesOfWeapon>
+		<DistanceOfWeapon Name ="Distance" Actions ="LongDistance, ShortDistance"/>
+	</DistancesOfWeapon>
+		
+	<Movements>
+		<Movement State ="Movement" Actions ="Idle Patrol Attack"/>
+	</Movements>	
+	<TypeOfAttacks>
+		<TypeOfAttack name ="StrongAttack"/>
+		<TypeOfAttack name ="FastAttack"/>
+		<TypeOfAttack name ="DistanceAttack"/>
+	</TypeOfAttacks>
+</Groups>
